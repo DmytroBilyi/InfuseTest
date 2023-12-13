@@ -7,11 +7,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
 
 public class LogInTest {
     @Test
-    public void webTablesVerification() {
+    public void logInVerification() {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Login");
